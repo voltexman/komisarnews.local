@@ -1,0 +1,33 @@
+/* Информационный баннер об отправке заказа */
+.sale-banner-inform {
+	background: #f1f1f1;
+	position: relative;
+	border-radius: 8px;
+	padding: 20px;
+	color: #555;
+}
+.sale-banner-inform:after {
+	right: 100%;
+	top: 30%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(241, 241, 241, 0);
+	border-right-color: #f1f1f1;
+	border-width: 22px;
+	margin-top: -22px;
+}
+
+ul.typeahead > li.active > a {
+	background: #000!important;
+	padding: 10px 20px!important;
+}
+
+.file-preview > button.close,
+.file-upload-indicator, .krajee-default .file-footer-caption, .kv-file-upload {display: none!important;}
+.krajee-default.file-preview-frame .file-thumbnail-footer,
+.krajee-default.file-preview-frame .kv-file-content {height: unset!important;}
+.krajee-default.file-preview-frame .file-thumbnail-footer {margin-top: 6px}

@@ -1,0 +1,54 @@
+/* Блок уведомления об отправки письма */
+.mailing-send-inform {
+	background: #171717;
+	width: 100%;
+	padding: 20px 10px;
+	/*height: 60px;*/
+	/*line-height: 60px;*/
+	color: #fff;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+/* Информационный баннер об отправке писем */
+.mailing-banner-inform {
+	background: #f1f1f1;
+	position: relative;
+	border-radius: 8px;
+	padding: 20px;
+	color: #555;
+}
+.mailing-banner-inform:after {
+	right: 100%;
+	top: 30%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+	border-color: rgba(241, 241, 241, 0);
+	border-right-color: #f1f1f1;
+	border-width: 22px;
+	margin-top: -22px;
+}
+
+/* Кнопки соц сетей на странице контактов */
+.page-social-block {
+	list-style-type: none;
+}
+.page-social-block li {
+	float: left;
+	margin: 0 10px;
+}
+.page-social-block li a {
+	color: #000;
+	font-size: 24px;
+}
+
+.page-contact-block {
+	list-style-type: none;
+}
+.page-contact-block li {
+	font-size: 14px;
+}
